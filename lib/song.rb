@@ -25,7 +25,8 @@ class Song
   end
   
   def self.create_by_name
-    
+    @@all << "String".new
+    return 
   end
   
   def name
