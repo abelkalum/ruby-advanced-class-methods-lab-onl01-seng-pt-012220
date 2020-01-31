@@ -24,6 +24,10 @@ class Song
     song.name
   end
   
+  def self.create_by_name
+    
+  end
+  
   def name
     @@name
   end
