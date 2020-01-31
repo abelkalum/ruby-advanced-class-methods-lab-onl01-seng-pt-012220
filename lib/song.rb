@@ -14,16 +14,12 @@ class Song
     self.class.all << self
   end
   
-  def self.create(song)
+  def self.create(name)
     @@all << self.new
   end
   
   def name
     @@name
-  end
-  
-  def song
-    @@song
   end
 
 end
