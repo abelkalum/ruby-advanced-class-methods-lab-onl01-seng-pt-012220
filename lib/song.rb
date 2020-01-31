@@ -14,5 +14,7 @@ class Song
     @@all << self.new
     Song.new
   end
+  
+  def 
 
 end
