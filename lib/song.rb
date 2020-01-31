@@ -19,7 +19,7 @@ class Song
     self.new
   end
   
-  def self.new
+  def self.new_by_name
     @@all << self.new
     song.name
   end
