@@ -21,8 +21,7 @@ class Song
   
   def self.new_by_name
     @@all << self.new
-    person.name = name
-    @@all << person
+    self.new
   end
   
   def name
