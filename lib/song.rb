@@ -27,6 +27,7 @@ class Song
   def self.create_by_name
     @@all << self.new
     return [ #{name}, #{artist_name}]
+   end
   end
   
   def name
