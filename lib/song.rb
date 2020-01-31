@@ -15,8 +15,5 @@ class Song
     song.name = name
     @@all << song
   end
-end
-  
-  def 
 
 end
