@@ -41,7 +41,7 @@ class Song
   end
   
   def self.alphabetical
-      songs = []
+      songs = @@all
       sorted_songs = songs.sort{|a,b| a <=> b }
       sorted_songs 
     end
