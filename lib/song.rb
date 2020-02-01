@@ -42,7 +42,7 @@ class Song
   end
   
   def self.alphabetical
-    sorted = %w{|song| song.name}.sort  
+    sorted = %w{song.name}.sort  
     sorted
   end
   
