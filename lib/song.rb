@@ -29,7 +29,7 @@ class Song
     song = self.new 
     song.name = name
     @@all << song
-    song.uniq
+    song.unique
   end
   
   def self.find_by_name(name)
