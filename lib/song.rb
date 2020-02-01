@@ -43,11 +43,11 @@ class Song
 
   def self.alphabetical
     sorted = @@all.sort_by! { |song| song.name }
-    sorted
+    sorted.uniq
   end
   
   def self.sorted
-    sorted
+    sorted.uniq
   end
 
   def self.new_from_filename(file_name)
