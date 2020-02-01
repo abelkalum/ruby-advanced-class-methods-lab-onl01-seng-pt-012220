@@ -4,6 +4,7 @@ class Song
 
   def initialize
     @@all << self
+    sorted
   end
   
   def self.all
