@@ -25,7 +25,7 @@ class Song
     song
   end
   
-     songs = ["Tiger", "Great White", "Hammerhead", "Angel"]
+     songs = ["Thriller", "Great White", "Hammerhead", "Angel"]
      sorted_songs = songs.sort{|a,b| a <=> b }
      sorted_songs 
   
