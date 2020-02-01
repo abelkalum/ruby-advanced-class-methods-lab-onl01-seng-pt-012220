@@ -25,10 +25,6 @@ class Song
     song
   end
   
-     songs = []
-     sorted_songs = songs.sort{|a,b| a <=> b }
-     sorted_songs 
-  
   def self.create_by_name(name)
     song = self.new 
     song.name = name
