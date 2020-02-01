@@ -42,8 +42,7 @@ class Song
   end
   
   def self.alphabetical
-    array.sort do |a, b| a <=> b
-    sorted = %w{song}.sort  
+    sorted = self.sort do |a, b| a <=> b
     sorted
   end
   
