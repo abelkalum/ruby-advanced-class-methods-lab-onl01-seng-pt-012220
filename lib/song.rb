@@ -21,12 +21,12 @@ class Song
   
   def self.new_by_name
     @@all << self.new
-    name
+    song.name
   end
   
   def self.create_by_name
     @@all << self.new
-    return #{name}, #{artist_name}
+    return self.new
    end
   end
   
