@@ -47,7 +47,8 @@ class Song
   end
   
   def self.sorted
-    
+    sorted
+  end
 
   def self.new_from_filename(file_name)
     new_song = self.new
